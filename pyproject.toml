@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "library-bot"
+version = "0.1.0"
+description = ""
+authors = ["Arybjan <arybjen92@gmail.com>"]
+readme = "README.md"
+packages = [{include = "library_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
